@@ -1459,6 +1459,8 @@ void init_GPIO_ports(void) {
      //PRINT(porttest);
 }
 
+void __weak __write(){
+};
 
 #if defined ( __ICCARM__ )  // IAR compiler...
 /* Revert ADI MISRA Suppressions */
